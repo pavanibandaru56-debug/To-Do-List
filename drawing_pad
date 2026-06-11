@@ -1,0 +1,11 @@
+from tkinter import*
+root=Tk()
+root.title("Drawing pad")
+canvas=Canvas(root,width=600,height=600,bg="white")
+canvas.pack()
+def draw(event):
+    x=event.x
+    y=event.y
+    canvas.create_oval(x,y,x+4,y+4,fill="red",outline="red")
+canvas.bind("<B1-Motion>",draw)
+root.mainloop()
