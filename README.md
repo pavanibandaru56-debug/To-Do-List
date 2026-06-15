@@ -25,7 +25,4 @@ python todo.py
 - Listbox
 - Buttons
 - Functions
-- Event Handling
-
-## Author
-Student Mini Project
+- Event Handling 
